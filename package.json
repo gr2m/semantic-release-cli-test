@@ -1,12 +1,24 @@
 {
-  "name": "semantic-release-cli-test",
-  "version": "1.0.0",
+  "name": "@gr2m/semantic-release-test-pr-457",
+  "version": "0.0.0-development",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "exit 0"
+    "test": "exit 0",
+    "semantic-release": "semantic-release pre && npm publish && semantic-release post"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gr2m/semantic-release-cli-test.git"
+  },
+  "publishConfig": {
+    "access": "public",
+    "tag": "next"
+  },
+  "devDependencies": {
+    "semantic-release": "github:Apidcloud/semantic-release#pr/GitHubPreRelease"
+  }
 }
