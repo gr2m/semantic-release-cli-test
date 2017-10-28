@@ -19,6 +19,6 @@
     "tag": "next"
   },
   "devDependencies": {
-    "semantic-release": "github:Apidcloud/semantic-release#pr/GitHubPreRelease"
+    "semantic-release": "github:semantic-release/semantic-release#cli-refactor"
   }
 }
