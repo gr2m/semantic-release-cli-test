@@ -19,6 +19,6 @@
     "tag": "next"
   },
   "devDependencies": {
-    "semantic-release": "github:semantic-release/semantic-release#cli-refactor"
+    "semantic-release": "^9.1.0"
   }
 }
